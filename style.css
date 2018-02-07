@@ -1,0 +1,310 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Mission Gothic;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 70px;
+	border-bottom: none;
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.2);
+	width: 100%;
+}
+
+nav img {
+	width: 150px;
+	margin-left: 65px;
+}
+
+nav div {
+	margin-right: 65px;
+}
+
+nav a {
+	font-size: 1.1em;
+	color: #787878;
+	text-decoration: none;
+	margin-left: 45px;
+	letter-spacing: 0.5px;
+}
+
+nav a:hover {
+	transition: 0.5s;
+	color: #79AB85;
+}
+
+nav a:nth-child(3) {
+	color: #79AB85;
+}
+
+nav a:nth-child(3):hover {
+	transition: 0.5s;
+	color: #E06556;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 80%;
+}
+
+header {
+	display: flex;
+	width: 50%;
+}
+
+header div {
+	color: #555454;
+}
+
+header h1 {
+	font-size: 2.7em;
+}
+
+header p {
+	font-size: 1.2em;
+}
+
+.entete {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.entete h3 {
+	color: #555454;
+	font-size: 2em;
+	margin-bottom: 10px;
+}
+
+.entete p {
+	color: #555454;
+	font-size: 1.2em;
+}
+
+section {
+	margin-bottom: 50px;
+}
+
+#principe {
+	text-align: center;
+}
+
+#principe h3 {
+	color: #555454;
+	font-size: 2em;
+	margin-bottom: 40px;
+}
+
+#principe .blocks {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#principe .block {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 30%;
+}
+
+#principe .block img {
+	width: 100px;
+}
+
+#principe .block h4 {
+	color: #555454;
+	font-size: 1.5em;
+}
+
+#principe .block p {
+	margin-top: 20px;
+    margin: auto;
+    color: #555454;
+    line-height: 1.3;
+    font-size: 1.1em;
+    width: 90%;
+}
+
+#principe .block:nth-child(1) img {
+	width: 80px;
+}
+
+#specialite {
+	width: 100%;
+}
+
+#specialite .allimages {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+
+#specialite .columnimage {
+	display: flex;
+	flex-direction: column;
+}
+
+#specialite .amfr {
+	width: 400px;
+	height: 270px;
+	background-color: grey;
+	margin-bottom: 30px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    background-size: cover;
+}
+
+#specialite #it {
+	height: 570px;
+	width: 300px;
+	background-color: grey;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    margin-bottom: 30px;
+    background-image: url(images/italien.jpg);
+    background-size: cover;
+    background-position: -380px;
+}
+
+#specialite .meth {
+	width: 350px;
+	height: 270px;
+	background-color: grey;
+	margin-bottom: 30px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    background-size: cover;
+}
+
+#americain {
+	background-image: url(images/americain.jpeg);
+}
+
+#français {
+	background-image: url(images/français.jpeg);
+}
+
+#mexicain {
+	background-image: url(images/mexicain.jpeg);
+}
+
+#thai {
+	background-image: url(images/thai.jpeg);
+}
+
+#cooker {
+	height: 300px;
+	width: 100%;
+	background-image: url(images/cookingbanner.jpeg);
+	background-size: cover;
+	background-position: 0;
+	color: #fff;
+}
+
+#cooker h3 {
+	font-size: 2em;
+	margin-left: 70px;
+}
+
+#cooker p {
+	width: 80%;
+	margin-left: 70px;
+	margin-bottom: 40px;
+}
+
+#cooker a {
+	background-color: #79AB85;
+	text-decoration: none;
+	color: #fff;
+	padding: 10px 45px;
+	border-radius: 4px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 0.9em;
+	margin-left: 70px;
+}
+
+#cooker a:hover {
+	transition: 0.7s;
+	background-color: #E06556;
+}
+
+footer {
+	width: 100%;
+	color: #555454;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#footerall {
+	display: flex;
+	justify-content: space-between;
+}
+
+.blockfooter {
+	width: 30%;
+}
+
+#liensutiles {
+	display: flex;
+	flex-direction: column;
+}
+
+#liensutiles p {
+	font-weight: bold;
+}
+
+#liensutiles a {
+	text-decoration: none;
+	margin-bottom: 5px;
+	color: #79AB85;
+}
+
+#liensutiles a:hover {
+	transition: 0.5s;
+	color: #E06556;
+}
+
+#footerapropos p:nth-child(1) {
+	font-weight: bold;
+}
+
+#footerapropos p:nth-child(2) {
+	width: 85%;
+}
+
+#footersocial p {
+	font-weight: bold;
+}
+
+#footersocial img {
+	width: 40px;
+	margin-right: 10px;
+}
+
